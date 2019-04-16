@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\danie\Source\Repos\kirshed\FlightGear-WPF\FlightSimulator\obj\Debug\
+C:\Users\danie\Source\Repos\kirshed\FlightGear-WPF\FlightSimulator\obj\Release\
 FlightSimulator
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\danie\Source\Repos\kirshed\FlightGear-WPF\FlightSimulator\App.xaml
 3367109077
 

@@ -4,9 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlightSimulator"
+		xmlns:locals="clr-namespace:FlightSimulator.ViewModels.Windows"
+		xmlns:Controls="clr-namespace:FlightSimulator.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="1000">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TabControl>
+            <TabItem Header ="Manual" FontSize="18">
+                <Controls:Joystick Margin="0,0,0,161" Height="425">
+
+                </Controls:Joystick>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
